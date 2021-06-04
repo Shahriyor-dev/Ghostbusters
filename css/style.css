@@ -189,6 +189,7 @@ body {
 .tabs {
   display: flex;
   align-items: center;
+  margin-bottom: 60px;
 }
 .section-title {
   font-size: 24px;
@@ -200,4 +201,64 @@ body {
   color: #363636;
   font-weight: 900;
   margin-right: 30px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin-bottom: 35px;
+}
+.tabs-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.name {
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671f6;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.en-name {
+  color: #a5a5a5;
+}
+.news {
+  background-color: #f3f3f3;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-news-title {
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 65px;
+}
+.news-card {
+  flex-basis: 23%;
+  background-color: #fff;
+  padding: 30px 30px 36px 30px;
+  border-radius: 5px;
+}
+.news-date {
+  font-size: 14px;
+  line-height: 16px;
+}
+.news-title {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  margin-top: 14px;
 }
