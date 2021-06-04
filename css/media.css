@@ -1,0 +1,190 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .card-image {
+    width: 70px;
+    height: 70px;
+  }
+  .nav-link {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .nav {
+    margin: 0 10px;
+  }
+  .search-input {
+    margin-left: 10px;
+  }
+  .sign-up {
+    padding: 0 20px;
+  }
+  .login {
+    padding: 0 20px;
+  }
+  .header {
+    height: 90px;
+    padding-left: 20px;
+  }
+  .line {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 760px;
+  }
+  .nav {
+    display: none;
+  }
+  .film-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .search-input {
+    margin-right: auto;
+  }
+  .film-subtitile {
+    margin-bottom: 20px;
+  }
+  .film-description {
+    margin-bottom: 30px;
+  }
+  .about-film {
+    margin-bottom: 30px;
+  }
+  .about-text-bold {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card-image {
+    width: 100px;
+    height: 100px;
+  }
+  .card {
+    flex-basis: 50%;
+  }
+  .news-card {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+  .log-in {
+    padding: 0 30px;
+  }
+  .sign-up {
+    padding: 0 20px;
+  }
+  .button {
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .film-wrapper {
+    flex-wrap: wrap;
+  }
+  .film {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .film-text {
+    order: -1;
+    margin-bottom: 30px;
+  }
+  .search-input {
+    font-size: 14px;
+  }
+  .sign-up {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .log-in {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .cast {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .header {
+    height: 80px;
+  }
+  .button-group {
+    display: none;
+  }
+  .search-input {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .mobile-buttons {
+    display: block;
+  }
+  .header {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+  .film-text {
+    order: 1;
+    margin-bottom: 0;
+  }
+  .film-trailer,
+  .poster {
+    width: 100%;
+  }
+  .film-title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 12px;
+  }
+  .film-subtitile {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 26px;
+  }
+  .film-description {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+  }
+  .about-film {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .film-trailer {
+    margin-bottom: 30px;
+  }
+  .about-text-bold {
+    display: inline-block;
+  }
+  .card {
+    flex-basis: 100%;
+  }
+  .card-image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .tabs {
+    margin-bottom: 35px;
+  }
+  .cast {
+    padding-bottom: 50px;
+  }
+  .news-card {
+    flex-basis: 100%;
+  }
+}

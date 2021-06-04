@@ -262,3 +262,22 @@ body {
   color: #000;
   margin-top: 14px;
 }
+.mobile-buttons {
+  display: none;
+}
+.m-menu-button,
+.search-button {
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+}
+.menu-line {
+  display: block;
+  height: 2px;
+  width: 16px;
+  background-color: #000;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 40px;
+  cursor: pointer;
+}
