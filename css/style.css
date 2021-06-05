@@ -1,18 +1,29 @@
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #363636;
 }
+.no-scroll {
+  overflow: hidden;
+}
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 104px;
   padding-left: 34px;
   border-bottom: 1px solid #d4d4d4;
+}
+.m-menu {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-grow: 1;
 }
 .search-input {
   background: url(../img/search-icon.svg);
